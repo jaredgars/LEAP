@@ -102,3 +102,10 @@ We run our analyses at both the week- and month-levels.
 > Ideally we should have the same regression file for both, with a choice at the top for "week" or "month." Otherwise we risk errors / inconsistencies across the analysis files.
 
 [Back to index](#index)
+
+
+# References
+
+https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
+
+
