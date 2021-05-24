@@ -106,6 +106,7 @@ We run our analyses at both the week- and month-levels.
 
 # References
 
+Frank Pinter. Git: A Guide for Economists. Presentation.
 https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
 
 
