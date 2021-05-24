@@ -106,7 +106,19 @@ We run our analyses at both the week- and month-levels.
 
 # References
 
-Frank Pinter. Git: A Guide for Economists. Presentation.
+Jesus Fernandez-Villaverde, 2020. Version Control: Git. <em>Computational Methods for Economists.</em>
+https://www.sas.upenn.edu/~jesusfv/Chapter_HPC_5_Git.pdf
+
+Frank Pinter, 2019. Git: A Guide for Economists. Presentation.
 https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
+
+Luis Fonseca, 2019. Version control with git (for economists)
+https://luispfonseca.com/files/slides_git.pdf
+
+Matteo Sostero, 2018. Git Better: Collaborative project management using Git and GitHub. Presentation.
+https://matteosostero.com/files/slides_git.pdf
+
+Francis DiTraglia, 2015. git-for-economists. Git Repository.
+https://github.com/fditraglia/git-for-economists
 
 
