@@ -22,7 +22,7 @@
 * 0 - Run config file to establish path names
 * **********************************************************************
 if "`c(username)'" == "jaredgars" { 
-        include "~/git/confidence/analysis/config.do"
+        include "~/git/LEAP/analysis/config.do"
 }
 
 * **********************************************************************
