@@ -1,10 +1,11 @@
 
 
-** Import Kharif Baseline Data
+** Import raw automotive data
 *-------------------------------------------------------------------------------
- use "$data/baseline rice/01_HH_Information_cleaned.dta", clear
+ use "$data/auto.dta", clear
 
+ generate lprice = log(price)
+ label var lprice "Log(Price)"
 
-
- save "$processed/data_clean", replace
+ save "$processed/auto_clean", replace
  
