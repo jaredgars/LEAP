@@ -45,7 +45,7 @@
     global stats                  "${draft}/stats"
 
 *Make directories if they do not already exist
-foreach dir in  processed temp draft figures tables stats{
+foreach dir in  processed temp draft figures tables stats {
      mkdir "$`dir'"
 }
 
