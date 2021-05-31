@@ -45,7 +45,9 @@
     global tables                 "${draft}/tables"
     global stats                  "${draft}/stats"
 
-
+*Make directories if they do not already exist
+foreach dir in datahub data processed temp draft figures tables{
+    qui: capture mkdir "$`dir'"
 
 * **********************************************************************
 * 2 - Change ado directory so packages get installed in
