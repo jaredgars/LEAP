@@ -25,8 +25,7 @@
     global project                "LEAP"
     
 * Create some sub-folder globals
-    global project                "${git}/${project}"
-    global analysis               "${project}/analysis"
+    global analysis               "${git}/${project}/analysis"
     
     *Scripts folders
     global scripts                "${analysis}/scripts"
@@ -46,8 +45,9 @@
     global stats                  "${draft}/stats"
 
 *Make directories if they do not already exist
-foreach dir in datahub data processed temp draft figures tables{
-    qui: capture mkdir "$`dir'"
+foreach dir in  processed temp draft figures tables stats{
+     mkdir "$`dir'"
+}
 
 * **********************************************************************
 * 2 - Change ado directory so packages get installed in
