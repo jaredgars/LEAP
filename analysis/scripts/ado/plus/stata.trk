@@ -1,0 +1,162 @@
+* 00000004
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/s
+N savesome.pkg
+D 31 May 2021
+U 1
+d 'SAVESOME': module to save subset of data
+d 
+d savesome saves part of the data in memory to filename.
+d 
+d KW: save
+d KW: data management
+d KW: files
+d 
+d Requires: Stata version 7.0
+d 
+d 
+d Author: Nicholas J. Cox, Durham University
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20150228
+d 
+f s/savesome.ado
+f s/savesome.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/w
+N winsor2.pkg
+D 31 May 2021
+U 2
+d 'WINSOR2': module to winsorize data
+d 
+d    winsor2 can winsorize a varlist, operate with the by prefix,
+d and offers a replace option.
+d 
+d KW: winsor
+d KW: winsorize
+d KW: data management
+d 
+d Requires: Stata version 8
+d 
+d Distribution-Date: 20201125
+d 
+d Author: Yujun Lian, Department of Finance, Sun Yat-Sen University, China
+d Support: email arlionn@@163.com
+d 
+f w/winsor2.ado
+f w/winsor2.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/b
+N blindschemes.pkg
+D 31 May 2021
+U 3
+d 'BLINDSCHEMES': module to provide graph schemes sensitive to color vision deficiency
+d 
+d  While Stata's computational capabilities have intensively
+d increased over the last decade, the quality of its default figure
+d schemes is still a matter of debate amongst users. Clearly some
+d of the arguments speaking against Stata figures are subject to
+d individual taste, but others are not, such as for instance:
+d horizontal labelling, unnecessary background tinting, missing
+d gridlines, oversized markers. The two schemes introduced here
+d attempt to solve the major shortcomings of Stata's default figure
+d schemes.  The schemes come with 21 new colors, of which seven
+d colors are distinguishable for people suffering from color
+d blindness.  This package provides users with four new figure
+d schemes: plotplain (plain and simple plotting environment, avoids
+d chartjunk); plotplainblind (plain and simple plotting
+d environment, avoids chartjunk + colorblind friendly); plottig
+d (replicates R ggplot in most regards); plottigblind (replicates R
+d ggplot in most regards + colorblind friendly)
+d 
+d KW: graphics
+d KW: schemes
+d KW: color vision deficiency
+d KW: color blindness
+d KW: chartjunk
+d 
+d Requires: Stata version 12
+d 
+d Distribution-Date: 20200807
+d 
+d Author: Daniel Bischof, University of Zurich
+d Support: email bischof@@ipz.uzh.ch
+d 
+f b/blindschemes.sthlp
+f s/scheme-plotplain.scheme
+f s/scheme-plotplainblind.scheme
+f s/scheme-plottig.scheme
+f s/scheme-plottigblind.scheme
+f p/plotplain.sthlp
+f p/plotplainblind.sthlp
+f p/plottig.sthlp
+f p/plottigblind.sthlp
+f style/color-vermillion.style
+f style/color-sky.style
+f style/color-reddish.style
+f style/color-orangebrown.style
+f style/color-ananas.style
+f style/color-turquoise.style
+f style/color-sea.style
+f style/color-plb1.style
+f style/color-plb2.style
+f style/color-plb3.style
+f style/color-plg1.style
+f style/color-plg2.style
+f style/color-plg3.style
+f style/color-pll1.style
+f style/color-pll2.style
+f style/color-pll3.style
+f style/color-plr1.style
+f style/color-plr2.style
+f style/color-ply1.style
+f style/color-ply2.style
+f style/color-ply3.style
+e
+S http://fmwww.bc.edu/repec/bocode/e
+N estout.pkg
+D 31 May 2021
+U 4
+d 'ESTOUT': module to make regression tables
+d 
+d  estout produces a table of regression results from one or
+d several models for use with spreadsheets, LaTeX, HTML, or a
+d word-processor table. eststo stores a quick copy of the active
+d estimation results for later tabulation. esttab is a wrapper for
+d estout. It displays a pretty looking publication-style regression
+d table without much typing. estadd adds additional results to the
+d e()-returns for one or several models previously fitted and
+d stored. This package subsumes the previously circulated esto,
+d esta, estadd,  and estadd_plus. An earlier version of estout is
+d available  as estout1.
+d 
+d KW: estimates
+d KW: LaTeX
+d KW: HTML
+d KW: word processor
+d KW: output
+d 
+d Requires: Stata version 8.2
+d 
+d Distribution-Date: 20210523
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f _/_eststo.ado
+f _/_eststo.hlp
+f e/estadd.ado
+f e/estadd.hlp
+f e/estout.ado
+f e/estout.hlp
+f e/eststo.ado
+f e/eststo.hlp
+f e/estpost.ado
+f e/estpost.hlp
+f e/esttab.ado
+f e/esttab.hlp
+e

@@ -12,9 +12,11 @@
     *to see your username type this into stata: disp "`c(username)'"
     
     if "`c(username)'" == "jaredgars" { 
-        global git          "/Users/jaredgars/git"
-        global dropbox      "/Users/jaredgars/Dropbox"
-        global overleaf     "/Users/jaredgars/Dropbox/Apps/Overleaf"
+        global user         "jaredgars"
+        global git          "/Users/${user}/git"
+        global dropbox      "/Users/${user}/Dropbox"
+        *global text         "/Users/jaredgars/Dropbox/Apps/Overleaf"
+        global text         "/Users/${user}/Dropbox/Apps/Overleaf"
     }
 
 * **********************************************************************
@@ -39,14 +41,14 @@
     global temp                   "${processed}/temp"
     
     *Draft folders
-    global draft                  "${overleaf}/${project}"
+    global draft                  "${dropbox}/${project}/draft"
     global figures                "${draft}/figures"
     global tables                 "${draft}/tables"
     global stats                  "${draft}/stats"
 
 *Make directories if they do not already exist
 foreach dir in  processed temp draft figures tables stats {
-     mkdir "$`dir'"
+     capture mkdir "$`dir'"
 }
 
 * **********************************************************************

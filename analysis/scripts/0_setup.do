@@ -12,7 +12,7 @@
 
 * dependencies
 	* add required packages/commands
-    local ssc_install   "savesome winsor2 "
+    local ssc_install   "savesome winsor2 blindschemes estout"
     local userpack      "StataConfig"
 
 * TO DO:
