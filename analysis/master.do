@@ -7,7 +7,7 @@
 * All subsequent files are referred to using dynamic, absolute filepaths
 * This file assumes that you have run analysis/scripts/0_setup.do *
 * does
-    /* This code runs all do-files needed for data work.
+    /* This code runs all do-files needed for data work.*/
     
 * TO DO:
     * 
@@ -15,7 +15,7 @@
 * **********************************************************************
 * 0 - General setup
 * **********************************************************************
-    include analysis/config.do
+    include ${analysis}/config.do
 
 * Specify Stata version in use
     global stataVersion 16.1    // set Stata version
@@ -25,9 +25,14 @@
     set scheme plotplain
 
 * Run 0_setup.do if needed (ensures dependencies installed)
-
+	
 
 **********************************************************************
 * 1 - Run code
 * **********************************************************************
 
+*Cleaning
+ include ${scripts}/1_cleaning.do
+
+ *Regressions
+ include ${scripts}/2_regressions.do
