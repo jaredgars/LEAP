@@ -4,8 +4,8 @@
 *-------------------------------------------------------------------------------
  use "$data/auto.dta", clear
 
- replace  weight = weight/10
- replace  length = length/10
+ replace  weight = weight/1000
+ replace  length = length/1000
  generate lprice = log(price)
  generate mpg2   = mpg^2
  
