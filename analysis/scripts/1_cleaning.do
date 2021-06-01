@@ -8,7 +8,7 @@
  label var lprice "Log(Price)"
 
  replace weight = weight/10000
- replace length = length/10
+ replace length = length/10000
 
  save "$processed/auto_clean", replace
  
