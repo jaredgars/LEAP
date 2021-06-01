@@ -15,8 +15,7 @@
         global user         "jaredgars"
         global git          "/Users/${user}/git"
         global dropbox      "/Users/${user}/Dropbox"
-        *global text         "/Users/jaredgars/Dropbox/Apps/Overleaf"
-        global text         "/Users/${user}/Dropbox/Apps/Overleaf"
+        *global overleaf         "/Users/jaredgars/Dropbox/Apps/Overleaf"
     }
 
 * **********************************************************************
