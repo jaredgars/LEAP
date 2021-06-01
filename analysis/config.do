@@ -51,6 +51,16 @@ foreach dir in  processed temp draft figures tables stats {
      capture mkdir "$`dir'"
 }
 
+file open tex using "$draft/tables_and_figures.tex", write text replace
+file write tex  "\documentclass[11pt]{article}" ///
+                "\begin{document}" ///
+                "\begin{table}" ///
+                "\input{./tables/reg_price}" ///
+                "\end{table}" ///
+                "\end{document}" 
+file close tex
+
+
 * **********************************************************************
 * 2 - Change ado directory so packages get installed in
 *     a project-specific directory
