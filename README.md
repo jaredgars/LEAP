@@ -2,7 +2,6 @@
 - [Introduction](#LEAP-project)
 - [Folder structure](#folder-structure)
 - [Data cleaning details](#data-cleaning)
-- [Analysis steps](#analysis-steps)
 - [Code requirements](#code-requirements)
 
 # Project title
@@ -39,7 +38,6 @@ We do not version control data <br>
 | --- | --- |  
 data/auto.dta        | processed/auto_clean.dta
 
-[Back to index](#index)
 
 ## Step 2: Run regressions
 [`2_regressions.do`](analysis/scripts/2_regressions.do)
