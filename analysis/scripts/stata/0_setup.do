@@ -30,8 +30,8 @@ if "`c(username)'" == "jaredgars" {
         global dropbox      "~/Dropbox"   /*Location of data and draft folder*/
 }
 
-if "`c(username)'" == "gb" { 
-        global git          "~/git"       /*Location of git project folder*/
+if "`c(username)'" == "giacomobattiston" { 
+        global git          "~/Documents/GitHub"       /*Location of git project folder*/
         global dropbox      "~/Dropbox"   /*Location of data and draft folder*/
 }
 
