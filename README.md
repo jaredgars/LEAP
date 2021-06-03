@@ -33,9 +33,9 @@ It only needs to be run once and is *not* included in the master .do file
 | --- | --- |  
 data/auto.dta        | processed/auto_clean.dta
 
-
-source files located in "~dropbox/LEAP/data/"
-output files located in "~dropbox/LEAP/processed/"
+</details>
+source files located in "~dropbox/LEAP/data/" <br>
+output files located in "~dropbox/LEAP/processed/" <br>
 
 [Back to index](#index)
 
