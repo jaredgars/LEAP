@@ -47,10 +47,8 @@ The general repo structure looks as follows:<br>
 Do-files
 ```
 git/LEAP
-├───README.md
-│  
+├──README.md 
 ├───tutorial
-│  
 └──analysis
     ├──masterDoFile.do
     ├──config.do       /* scripts used across data types */
