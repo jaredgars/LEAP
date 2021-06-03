@@ -12,7 +12,7 @@
 
 * dependencies
 	* add required packages/commands
-    local ssc_install   "savesome winsor2 blindschemes estout"
+    local ssc_install   "savesome winsor2  estout"
     local userpack      "StataConfig"
 
 * TO DO:
@@ -25,8 +25,8 @@
 global project "LEAP"
 
 if "`c(username)'" == "jaredgars" { 
-        global git          "~/git"
-        global dropbox      "~/Dropbox"
+        global git          "~/git"       /*Location of git project folder*/
+        global dropbox      "~/Dropbox"   /*Location of data and draft folder*/
 }
 
 *Set your username and locations of git and dropbox project folders 
@@ -64,13 +64,17 @@ include "${git}/${project}/analysis/config.do"
     	}
     }
 
+* My data export ado file
+    di "** Installing data export ado file **"
+    *qui: net install StataConfig, replace from(https://raw.githubusercontent.com/jaredgars/dataexport/main/)
+
 
 * Update all ado files
     if $adoUpdate == 1 {
         ado update, update
     }
 
-set scheme plotplain
+*set scheme plotplain
 * **********************************************************************
 * 3 - Run programs for analysis
 * **********************************************************************
