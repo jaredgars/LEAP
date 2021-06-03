@@ -1,5 +1,5 @@
 # Index
-- [Introduction](#LEAP project)
+- [Introduction](#LEAP-project)
 - [Folder structure](#folder-structure)
 - [Data cleaning details](#data-cleaning)
 - [Analysis steps](#analysis-steps)
