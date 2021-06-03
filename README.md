@@ -24,18 +24,29 @@ This script installs dependencies (e.g., user-written Stata programs)<br>
 It only needs to be run once and is *not* included in the master .do file
     > **Note:** `0_setup.do` defines a macro called `adoUpdate`; set it to 0 if you do not want to update all ado files
 
+</details>
+source files located in "Dropbox/LEAP/data/" <br>
+output files located in "Dropbox/LEAP/processed/" <br>
+Scripts take us from  raw data to analysis-ready data <br>
+Raw data lives in the data/ folder _(read-only)_ <br>
+We do not version control data <br>
+
+
 ## Step 1: Clean raw data
 [`1_cleaning.do`](analysis/scripts/1_cleaning.do)
-
-**Part 1: Clean ancillary data**
 
 | Input | Outputs |
 | --- | --- |  
 data/auto.dta        | processed/auto_clean.dta
 
-</details>
-source files located in "Dropbox/LEAP/data/" <br>
-output files located in "Dropbox/LEAP/processed/" <br>
+[Back to index](#index)
+
+## Step 2: Run regressions
+[`2_regressions.do`](analysis/scripts/2_regressions.do)
+
+| Input | Outputs |
+| --- | --- |  
+processed/auto_clean.dta        | processed/auto_clean.dta
 
 [Back to index](#index)
 
@@ -43,7 +54,6 @@ output files located in "Dropbox/LEAP/processed/" <br>
 ## Folder structure
 
 The general repo structure looks as follows:<br>
-
 
 ```
 Code 
@@ -76,47 +86,8 @@ Dropbox/LEAP
     └──statistics
 ```
 
-<details>
-<summary>Full directory structure under fold</summary>
-
-TBD
-
-</details>
-
-Raw data lives in the data/ folder _(read-only)_ <br>
-We do not version control data <br>
-Scripts take us from  raw data to analysis-ready data <br>
-
-[Back to index](#index)
-
-# Analysis steps
-First we do this, then we do that.<br>
-
-[Back to index](#index)
-
-## Different versions of the data
- - [ ] Move to an issue
-We run our analyses at both the week- and month-levels.
-> Ideally we should have the same regression file for both, with a choice at the top for "week" or "month." Otherwise we risk errors / inconsistencies across the analysis files.
-
 [Back to index](#index)
 
 
-# References
-
-Jesus Fernandez-Villaverde, 2020. Version Control: Git. <em>Computational Methods for Economists.</em>
-https://www.sas.upenn.edu/~jesusfv/Chapter_HPC_5_Git.pdf
-
-Frank Pinter, 2019. Git: A Guide for Economists. Presentation.
-https://www.frankpinter.com/notes/git-for-economists-presentation.pdf
-
-Luis Fonseca, 2019. Version control with git (for economists)
-https://luispfonseca.com/files/slides_git.pdf
-
-Matteo Sostero, 2018. Git Better: Collaborative project management using Git and GitHub. Presentation.
-https://matteosostero.com/files/slides_git.pdf
-
-Francis DiTraglia, 2015. git-for-economists. Git Repository.
-https://github.com/fditraglia/git-for-economists
 
 
