@@ -61,14 +61,14 @@ Data
 Dropbox/LEAP
 ├──data /* raw data */
 ├──processed /* processed (intermediate) data */
-   └──temp /* temporary data */
-├──documentation
+│  └──temp /* temporary data */
+└──documentation
    └──questionnaire
    └──grants
 
 Text
 Dropbox/LEAP
-├──draft
+└──draft
     ├──tables_and_figures.tex
     ├──tables
     ├──figures
