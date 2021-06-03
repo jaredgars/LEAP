@@ -20,12 +20,14 @@
 
 * Run 0_setup.do - set where your setup file is. Must change root globals in scripts/0_setup.do before running. 
 * To see username, in Stata, type: dis "`c(username)'"
-if "`c(username)'" == "jaredgars" { 
-	include "~/git/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
+
+
+if "`c(username)'" == "giacomobattiston" { 
+	include "~/Documents/GitHub/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
 }
 
-if "`c(username)'" == "gb" { 
-	include "~/Documents/GitHub/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
+if "`c(username)'" == "xxx" { 
+	include "XXX/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
 }
 
 **********************************************************************
