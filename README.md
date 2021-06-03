@@ -63,17 +63,17 @@ Data
 Dropbox/LEAP
 ├──data /* raw data */
 ├──processed /* processed (intermediate) data */
-│    ├──temp /* temporary data */
+   └──temp /* temporary data */
 ├──documentation
-│  └──questionnaire
-│  └──grants
+   └──questionnaire
+   └──grants
 
 Text
 Dropbox/LEAP
-│    ├──output
-│    │  ├──tables
-│    │  └──figures
-│    │  └──statistics
+├──output
+    ├──tables
+    ├──figures
+    └──statistics
 ```
 
 <details>
