@@ -1,13 +1,15 @@
 # Index
-- [Introduction](#LEAP-project)
+- [Introduction](#media-and-motivation)
 - [Folder structure](#folder-structure)
-- [Data cleaning details](#data-cleaning)
+- [Data cleaning](#data-cleaning)
+- [Analysis steps](#analysis-steps)
+
 
 # Project title
 
 Collaborators: Giacomo Battiston, Jared Gars
 
-LEAP example research repo with code and results (Data located in /Dropbox/LEAP/data)
+LEAP example research repo with code and results
 
 # Data cleaning
 
@@ -36,7 +38,7 @@ The following stata script cleans auto.dta and other description:
 data/auto.dta        | processed/auto_clean.dta
 
 
-# Data analysis
+# Analysis steps
 
 
 ## Step 1: Run regressions
