@@ -11,6 +11,8 @@ LEAP example research repo with code and results (Data located in /Dropbox/LEAP/
 
 # Data cleaning
 
+Scripts go through each step, from cleaning raw data to analysis. The master .do files should completely replicate the analysis.
+
 ## Pre-requisites
 
 * **Update:** `config.do` <br>
