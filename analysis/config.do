@@ -11,24 +11,16 @@
 * **********************************************************************
     *to see your username type this into stata: disp "`c(username)'"
     
-    if "`c(username)'" == "jaredgars" { 
-        global user         "jaredgars"
-        global git          "/Users/${user}/git"
-        global dropbox      "/Users/${user}/Dropbox"
-        *global overleaf         "/Users/jaredgars/Dropbox/Apps/Overleaf"
-    }
+
 
 * **********************************************************************
 * 1 - Sub-directory globals
 * **********************************************************************
+    
+* Create sub-folder globals
 
-*Project name
-    global project                "LEAP"
-    
-* Create some sub-folder globals
-    global analysis               "${git}/${project}/analysis"
-    
     *Scripts folders
+    global analysis               "${git}/${project}/analysis"
     global scripts                "${analysis}/scripts"
     global programs               "${scripts}/programs"
     global logs                   "${scripts}/logs"

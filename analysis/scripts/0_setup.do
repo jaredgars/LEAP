@@ -19,11 +19,24 @@
     *
 
 * **********************************************************************
-* 0 - Run config file to establish path names
+* 0 - Set user, Root globals, and Run config file to establish path names
 * **********************************************************************
+*Project name
+global project "LEAP"
+
 if "`c(username)'" == "jaredgars" { 
-        include "~/git/LEAP/analysis/config.do"
+        global git          "~/git"
+        global dropbox      "~/Dropbox"
 }
+
+*Set your username and locations of git and dropbox project folders 
+if "`c(username)'" == "XXX" { 
+        global git          "~/git"     /*Location of git project folder*/
+        global dropbox      "~/Dropbox" /*Location of data and draft folder*/
+}
+
+*Run config file
+include "${git}/${project}/analysis/config.do"
 
 * **********************************************************************
 * 1 - Decide if you want to update ado files (otherwise set adoUpdate to 0)
