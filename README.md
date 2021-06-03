@@ -44,11 +44,11 @@ output files located in "~dropbox/LEAP/processed/"
 
 The general repo structure looks as follows:<br>
 
-```stata
+Do-files
 git/LEAP
-├────README.md
+├───README.md
 │  
-├────tutorial
+├───tutorial
 │  
 └──analysis
      ├──masterDoFile.do
@@ -59,20 +59,21 @@ git/LEAP
 
 Data
 Dropbox/LEAP
-│    ├──data /* raw data */
-│    ├──processed /* processed (intermediate) data */
+├──data /* raw data */
+├──processed /* processed (intermediate) data */
 │    ├──temp /* temporary data */
-│    ├──documentation
-│    │  └──questionnaire
-│    │  └──grants
-└──config
+├──documentation
+│  └──questionnaire
+│  └──grants
 
-Overleaf/LEAPproject
+
+Text
+Dropbox/LEAP
 │    ├──output
 │    │  ├──tables
 │    │  └──figures
 │    │  └──statistics
-└──config
+
 ```
 
 <details>
