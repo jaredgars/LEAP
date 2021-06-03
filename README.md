@@ -25,8 +25,8 @@ It only needs to be run once and is *not* included in the master .do file
     > **Note:** `0_setup.do` defines a macro called `adoUpdate`; set it to 0 if you do not want to update all ado files
 
 </details>
-Raw source files located in "Dropbox/LEAP/data/" <br>
-Cleaned files located in "Dropbox/LEAP/processed/" <br>
+Raw source files: "Dropbox/LEAP/data/" <br>
+Cleaned files:    "Dropbox/LEAP/processed/" <br>
 
 
 ## Step 1: Clean raw data
