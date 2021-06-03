@@ -9,7 +9,7 @@
 
 Collaborators: Giacomo Battiston, Jared Gars
 
-LEAP example research repo with code and results (no data)
+LEAP example research repo with code and results (Data located in /Dropbox/LEAP/data)
 
 # Data cleaning
 
@@ -25,14 +25,14 @@ It only needs to be run once and is *not* included in the master .do file
     > **Note:** `0_setup.do` defines a macro called `adoUpdate`; set it to 0 if you do not want to update all ado files
 
 ## Step 1: Clean raw data
-[`1_cleaning_raw_data.do`](analysis/scripts/0_setup.do)
+[`1_cleaning.do`](analysis/scripts/1_cleaning.do)
 
 **Part 1: Clean ancillary data**
 
 | Input | Outputs |
 | --- | --- |  
-data/baseline.csv        | processed/baseline_clean.dta
-data/midline.csv         | processed/midline_clean.dta
+data/auto.dta        | processed/auto_clean.dta
+
 
 source files located in "~dropbox/LEAP/data/"
 output files located in "~dropbox/LEAP/processed/"
