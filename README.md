@@ -25,7 +25,6 @@ It only needs to be run once and is *not* included in the master .do file
 </details>
 Raw source files located in "Dropbox/LEAP/data/" <br>
 Cleaned files located in "Dropbox/LEAP/processed/" <br>
-Scripts take us from raw data to analysis-ready data <br>
 
 
 ## Step 1: Clean raw data
