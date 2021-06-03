@@ -40,11 +40,6 @@ output files located in "~dropbox/LEAP/processed/"
 [Back to index](#index)
 
 
-
-* `config.do` defines all path names
-* `0_setup.do` installs dependencies (e.g., user-written Stata programs)
-    >  `0_setup.do` defines a macro called `adoUpdate`; set it to 0 if you do not want to update all ado files
-
 ## Folder structure
 
 The general repo structure looks as follows:<br>
@@ -59,7 +54,7 @@ git/LEAPproject
 │    │  ├──scripts
 │    │  │  ├──stata
 │    │  │  └──python
-└──config
+
 
 Dropbox/LEAPproject
 │    ├──data /* raw data */
