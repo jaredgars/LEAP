@@ -70,7 +70,8 @@ Dropbox/LEAP
 
 Text
 Dropbox/LEAP
-├──output
+├──draft
+    ├──tables_and_figures.tex
     ├──tables
     ├──figures
     └──statistics
