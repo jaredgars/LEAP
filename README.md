@@ -45,7 +45,7 @@ output files located in "~dropbox/LEAP/processed/"
 The general repo structure looks as follows:<br>
 
 ```stata
-git/LEAPproject
+git/LEAP
 ├────README.md
 │  
 ├────tutorial
@@ -57,8 +57,8 @@ git/LEAPproject
            ├──stata
            └──python
 
-
-Dropbox/LEAPproject
+Data
+Dropbox/LEAP
 │    ├──data /* raw data */
 │    ├──processed /* processed (intermediate) data */
 │    ├──temp /* temporary data */
