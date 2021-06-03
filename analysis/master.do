@@ -19,8 +19,9 @@
     *set scheme plotplain
 
 * Run 0_setup.do - set where your setup file is. Must change root globals in scripts/0_setup.do before running. 
-if "`c(username)'" == "jaredgars" { 
-	include "~/git/LEAP/analysis/scripts/stata/0_setup.do"
+* To see username, in Stata, type: dis "`c(username)'"
+if "`c(username)'" == "XXX" { 
+	include "XXX/LEAP/analysis/scripts/stata/0_setup.do"
 }
 
 **********************************************************************
