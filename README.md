@@ -21,14 +21,13 @@ It only needs to be run once and is *not* included in the master .do file
     > **Note:** `0_setup.do` defines a macro called `adoUpdate`; set it to 0 if you do not want to update all ado files
 
 </details>
-source files located in "Dropbox/LEAP/data/" <br>
-output files located in "Dropbox/LEAP/processed/" <br>
-Scripts take us from  raw data to analysis-ready data <br>
-Raw data lives in the data/ folder _(read-only)_ <br>
-We do not version control data <br>
+Raw source files located in "Dropbox/LEAP/data/" <br>
+Cleaned files located in "Dropbox/LEAP/processed/" <br>
+Scripts take us from raw data to analysis-ready data <br>
 
 
 ## Step 1: Clean raw data
+The following stata script cleans auto.dta and other description:
 [`1_cleaning.do`](analysis/scripts/1_cleaning.do)
 
 | Input | Outputs |
@@ -40,6 +39,8 @@ data/auto.dta        | processed/auto_clean.dta
 
 
 ## Step 1: Run regressions
+The following stata script runs regressions and outputs tables:
+
 [`2_regressions.do`](analysis/scripts/2_regressions.do)
 
 | Input | Outputs |
