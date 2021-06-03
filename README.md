@@ -49,13 +49,13 @@ git/LEAPproject
 ├────README.md
 │  
 ├────tutorial
-|
+│  
 └──analysis
      ├──masterDoFile.do
      ├──config.do       /* scripts used across data types */
-     │  ├──scripts
-     │  │  ├──stata
-     │  │  └──python
+        ├──scripts
+           ├──stata
+           └──python
 
 
 Dropbox/LEAPproject
