@@ -1,0 +1,52 @@
+* 00000002
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://fmwww.bc.edu/repec/bocode/s
+N savesome.pkg
+D  3 Jun 2021
+U 1
+d 'SAVESOME': module to save subset of data
+d 
+d savesome saves part of the data in memory to filename.
+d 
+d KW: save
+d KW: data management
+d KW: files
+d 
+d Requires: Stata version 7.0
+d 
+d 
+d Author: Nicholas J. Cox, Durham University
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20150228
+d 
+f s/savesome.ado
+f s/savesome.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/w
+N winsor2.pkg
+D  3 Jun 2021
+U 2
+d 'WINSOR2': module to winsorize data
+d 
+d    winsor2 can winsorize a varlist, operate with the by prefix,
+d and offers a replace option.
+d 
+d KW: winsor
+d KW: winsorize
+d KW: data management
+d 
+d Requires: Stata version 8
+d 
+d Distribution-Date: 20201125
+d 
+d Author: Yujun Lian, Department of Finance, Sun Yat-Sen University, China
+d Support: email arlionn@@163.com
+d 
+f w/winsor2.ado
+f w/winsor2.sthlp
+e
