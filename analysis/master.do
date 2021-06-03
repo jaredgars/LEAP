@@ -25,7 +25,7 @@ if "`c(username)'" == "jaredgars" {
 }
 
 if "`c(username)'" == "gb" { 
-	include "~/git/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
+	include "~/Documents/GitHub/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
 }
 
 **********************************************************************
