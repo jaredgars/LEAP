@@ -13,6 +13,8 @@
 	estadd ysumm
 	eststo m4: reg price mpg mpg2 weight length gear_ratio gear_ratio2 i.foreign , r
 	estadd ysumm
+	eststo m5: reg price mpg mpg2 weight length gear_ratio gear_ratio2 turn i.foreign , r
+	estadd ysumm
 	esttab  using "$tables/reg_price.tex", scalars("ymean Mean dep. var." ) label replace b(a2) ar2  star( * .1 ** .05 *** .01) ///
 	 nonotes nobaselevels noomitted
 
