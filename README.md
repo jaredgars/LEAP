@@ -48,7 +48,7 @@ The following stata script runs regressions and outputs tables:
 
 | Input | Outputs |
 | --- | --- |  
-processed/auto_clean.dta        | processed/auto_clean.dta
+processed/auto_clean.dta        | draft/tables/reg_price.tex
 
 [Back to index](#index)
 
