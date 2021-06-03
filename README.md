@@ -52,13 +52,12 @@ git/LEAP
 ├───tutorial
 │  
 └──analysis
-│     ├──masterDoFile.do
-│    ├──config.do       /* scripts used across data types */
-│        ├──scripts
-│           ├──stata
-│           └──python
-│   
-└──config
+    ├──masterDoFile.do
+    ├──config.do       /* scripts used across data types */
+        ├──scripts
+           ├──stata
+           └──python
+
 
 Data
 Dropbox/LEAP
@@ -68,8 +67,6 @@ Dropbox/LEAP
 ├──documentation
 │  └──questionnaire
 │  └──grants
-│   
-└──config
 
 Text
 Dropbox/LEAP
@@ -77,8 +74,6 @@ Dropbox/LEAP
 │    │  ├──tables
 │    │  └──figures
 │    │  └──statistics
-│   
-└──config
 ```
 
 <details>
