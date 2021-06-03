@@ -52,7 +52,7 @@ git/LEAP
 │   └──gitting_started.md
 └──analysis
     ├──masterDoFile.do
-    ├──config.do       /* scripts used across data types */
+    ├──config.do       
         ├──scripts
            ├──stata
            └──python
@@ -60,9 +60,9 @@ git/LEAP
 
 Data
 Dropbox/LEAP
-├──data /* raw data */
-├──processed /* processed (intermediate) data */
-│  └──temp /* temporary data */
+├──data 
+├──processed 
+│  └──temp 
 └──documentation
    └──questionnaire
    └──grants
