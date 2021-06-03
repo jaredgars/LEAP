@@ -2,7 +2,6 @@
 - [Introduction](#LEAP-project)
 - [Folder structure](#folder-structure)
 - [Data cleaning details](#data-cleaning)
-- [Code requirements](#code-requirements)
 
 # Project title
 
@@ -11,8 +10,6 @@ Collaborators: Giacomo Battiston, Jared Gars
 LEAP example research repo with code and results (Data located in /Dropbox/LEAP/data)
 
 # Data cleaning
-
-Scripts go through each step, from cleaning raw data to analysis. The master `.do` files should completely replicate the analysis.<br>
 
 ## Pre-requisites
 
@@ -39,7 +36,10 @@ We do not version control data <br>
 data/auto.dta        | processed/auto_clean.dta
 
 
-## Step 2: Run regressions
+# Data analysis
+
+
+## Step 1: Run regressions
 [`2_regressions.do`](analysis/scripts/2_regressions.do)
 
 | Input | Outputs |
