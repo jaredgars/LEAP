@@ -20,7 +20,7 @@
 
 * Run 0_setup.do - set where your setup file is. Must change root globals in scripts/0_setup.do before running. 
 if "`c(username)'" == "jaredgars" { 
-	include "~/git/LEAP/analysis/scripts/0_setup.do"
+	include "~/git/LEAP/analysis/scripts/stata/0_setup.do"
 }
 
 **********************************************************************
