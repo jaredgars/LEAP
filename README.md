@@ -48,7 +48,8 @@ Do-files
 ```
 git/LEAP
 ├──README.md 
-├───tutorial
+├──tutorial
+│   └──gitting_started.md
 └──analysis
     ├──masterDoFile.do
     ├──config.do       /* scripts used across data types */
