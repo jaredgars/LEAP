@@ -16,7 +16,7 @@
     local userpack      "StataConfig"
 
 * TO DO:
-    *
+    * Many things
 
 * **********************************************************************
 * 0 - Set user, Root globals, and Run config file to establish path names
