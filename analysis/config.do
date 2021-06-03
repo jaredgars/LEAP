@@ -19,7 +19,9 @@
     *Scripts folders
     global analysis               "${git}/${project}/analysis"
     global scripts                "${analysis}/scripts"
-    global programs               "${scripts}/programs"
+    global stata                  "${scripts}/stata"
+    global python                 "${scripts}/python"
+    global programs               "${stata}/programs"
     global logs                   "${scripts}/logs"
     
     *Data folders
@@ -54,12 +56,12 @@ file close tex
 *     a project-specific directory
 * **********************************************************************
 * Create ado folder if it doesn't exist
-    qui: capture mkdir      "${scripts}/ado"
+    qui: capture mkdir      "${stata}/ado"
 
 * Storing packages here ensures that the project is replicable
 * without requiring an internet connection
-    sysdir set PERSONAL     "${scripts}/ado/personal"
-    sysdir set PLUS         "${scripts}/ado/plus"
+    sysdir set PERSONAL     "${stata}/ado/personal"
+    sysdir set PLUS         "${stata}/ado/plus"
 
 * **********************************************************************
 * 3 - Set important preferences
