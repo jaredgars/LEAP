@@ -24,16 +24,12 @@
 *Project name
 global project "LEAP"
 
-if "`c(username)'" == "jaredgars" { 
+*Set your username and locations of git and dropbox project folders 
+if "`c(username)'" == "XXX" { 
         global git          "~/git"       /*Location of git project folder*/
         global dropbox      "~/Dropbox"   /*Location of data and draft folder*/
 }
 
-*Set your username and locations of git and dropbox project folders 
-if "`c(username)'" == "XXX" { 
-        global git          "~/git"     /*Location of git project folder*/
-        global dropbox      "~/Dropbox" /*Location of data and draft folder*/
-}
 
 *Run config file
 include "${git}/${project}/analysis/config.do"
