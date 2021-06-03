@@ -45,17 +45,20 @@ output files located in "~dropbox/LEAP/processed/"
 The general repo structure looks as follows:<br>
 
 Do-files
+```
 git/LEAP
 ├───README.md
 │  
 ├───tutorial
 │  
 └──analysis
-     ├──masterDoFile.do
-     ├──config.do       /* scripts used across data types */
-        ├──scripts
-           ├──stata
-           └──python
+│     ├──masterDoFile.do
+│    ├──config.do       /* scripts used across data types */
+│        ├──scripts
+│           ├──stata
+│           └──python
+│   
+└──config
 
 Data
 Dropbox/LEAP
@@ -65,7 +68,8 @@ Dropbox/LEAP
 ├──documentation
 │  └──questionnaire
 │  └──grants
-
+│   
+└──config
 
 Text
 Dropbox/LEAP
@@ -73,7 +77,8 @@ Dropbox/LEAP
 │    │  ├──tables
 │    │  └──figures
 │    │  └──statistics
-
+│   
+└──config
 ```
 
 <details>
