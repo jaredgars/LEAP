@@ -46,7 +46,7 @@ The general repo structure looks as follows:<br>
 
 
 ```
-#### Code 
+Code 
 git/LEAP
 ├──README.md 
 ├──tutorial
@@ -59,7 +59,7 @@ git/LEAP
            └──python
 
 
-#### Data
+Data
 Dropbox/LEAP
 ├──data 
 ├──processed 
@@ -68,7 +68,7 @@ Dropbox/LEAP
    └──questionnaire
    └──grants
 
-#### Text
+Text
 Dropbox/LEAP
 └──draft
     ├──tables_and_figures.tex
