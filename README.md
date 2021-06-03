@@ -47,13 +47,15 @@ The general repo structure looks as follows:<br>
 ```stata
 git/LEAPproject
 ├────README.md
-│    
-├────analysis
-│    ├──masterDoFile.do
-│    ├──config.do       /* scripts used across data types */
-│    │  ├──scripts
-│    │  │  ├──stata
-│    │  │  └──python
+│  
+├────tutorial
+|
+└──analysis
+     ├──masterDoFile.do
+     ├──config.do       /* scripts used across data types */
+     │  ├──scripts
+     │  │  ├──stata
+     │  │  └──python
 
 
 Dropbox/LEAPproject
