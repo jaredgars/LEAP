@@ -26,8 +26,8 @@ global project "LEAP"
 
 *Set your username and locations of git and dropbox project folders 
 if "`c(username)'" == "Usuario" { 
-        global git          "~/git"       /*Location of git project folder*/
-        global dropbox      "~/Dropbox"   /*Location of data and draft folder*/
+        global git          "~/OneDrive - Grupo de Análisis para el Desarrollo/Documentos/Alexandra/git2"       /*Location of git project folder*/
+        global dropbox      "~/OneDrive - Grupo de Análisis para el Desarrollo/Documentos/Alexandra"   /*Location of data and draft folder*/
 }
 
 if "`c(username)'" == "giacomobattiston" { 

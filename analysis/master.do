@@ -27,15 +27,15 @@ if "`c(username)'" == "giacomobattiston" {
 }
 
 if "`c(username)'" == "Usuario" { 
-	include "~/git/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
+	include "~/OneDrive - Grupo de Análisis para el Desarrollo/Documentos/Alexandra/git2/LEAP/analysis/scripts/stata/0_setup.do"   /* Input your git project folder location*/
 }
-
+*"/OneDrive - Grupo de Análisis para el Desarrollo/Documentos/Alexandra/"
 **********************************************************************
 * 1 - Run code
 * **********************************************************************
 
 *Cleaning
- include ${stata}/1_cleaning.do
+ include "${stata}/1_cleaning.do"
 
  *Regressions
- include ${stata}/2_regressions.do
+ include "${stata}/2_regressions.do"

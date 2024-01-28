@@ -1,4 +1,4 @@
-* 00000003
+* 00000005
 *! version 1.0.0
 * Do not erase or edit this file
 * It is used by Stata to track the ado and help
@@ -52,8 +52,8 @@ f w/winsor2.sthlp
 e
 S http://fmwww.bc.edu/repec/bocode/e
 N estout.pkg
-D  3 Jun 2021
-U 3
+D 28 Jan 2024
+U 5
 d 'ESTOUT': module to make regression tables
 d 
 d  estout produces a table of regression results from one or
@@ -75,21 +75,21 @@ d KW: output
 d 
 d Requires: Stata version 8.2
 d 
-d Distribution-Date: 20210523
+d Distribution-Date: 20230212
 d 
 d Author: Ben Jann, University of Bern
 d Support: email jann@@soz.unibe.ch
 d 
-f _/_eststo.ado
-f _/_eststo.hlp
-f e/estadd.ado
-f e/estadd.hlp
-f e/estout.ado
-f e/estout.hlp
-f e/eststo.ado
-f e/eststo.hlp
-f e/estpost.ado
-f e/estpost.hlp
-f e/esttab.ado
-f e/esttab.hlp
+f _\_eststo.ado
+f _\_eststo.hlp
+f e\estadd.ado
+f e\estadd.hlp
+f e\estout.ado
+f e\estout.hlp
+f e\eststo.ado
+f e\eststo.hlp
+f e\estpost.ado
+f e\estpost.hlp
+f e\esttab.ado
+f e\esttab.hlp
 e
