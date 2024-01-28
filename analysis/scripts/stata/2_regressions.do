@@ -11,7 +11,7 @@
 	estadd ysumm
 	eststo m3: reg price mpg weight weight2 length , r //new reg 2
 	estadd ysumm
-	eststo m4: reg price mpg weight weight2 turn turn2 length , r
+	eststo m4: reg price mpg weight weight2 turn turn2 length , r // new reg 3
 	estadd ysumm
 	eststo m5: reg price mpg weight weight2 turn turn2 length i.foreign, r
 	estadd ysumm
